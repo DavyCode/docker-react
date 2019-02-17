@@ -4,6 +4,6 @@ import Flex, { FlexItem } from 'styled-flex-component';
 export default () => (
   <Flex center full>
     <FlexItem order="2">World</FlexItem>
-    <FlexItem order="1">Hello</FlexItem>
+    <FlexItem order="1">From feature branch</FlexItem>
   </Flex>
 );
