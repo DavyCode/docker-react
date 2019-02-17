@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_script:
+  - docker build -t davycode/docker-react Dockerfile.dev .
+
+script: 
+  - docker run davycode/docker-react npm run test -- --coverage
