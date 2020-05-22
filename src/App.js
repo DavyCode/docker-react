@@ -16,7 +16,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Docker - React Application v33
+            Docker - React Application v334
           </a>
         </header>
       </div>
